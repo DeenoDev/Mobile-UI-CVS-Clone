@@ -46,3 +46,22 @@ body{
     border-radius: 3px;
     border: 0;
 }
+
+.subheader {
+    background-color: var(--secondary-color);
+    color: white;
+    box-shadow: 3px 3px 10px #888;
+    margin: 0 auto 16px auto;
+    width: 90%;
+    font-size: 14px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.subheader img {
+    width: 40px;
+
+}
