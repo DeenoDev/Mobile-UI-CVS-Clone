@@ -61,7 +61,26 @@ body{
 
 }
 
+.subheader p {
+    margin: 4px;
+}
+
 .subheader img {
     width: 40px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+
+}
+
+.grid .item{
+    
+}
+.grid .item img{
+    width: 30px;
 
 }
