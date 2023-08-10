@@ -21,3 +21,21 @@ body{
     padding: 10px;
     overflow: none;
 }
+
+.app-header {
+    background-color: var(--primary-color);
+    box-shadow: 3px 3px 10px #888;
+}
+
+.app-header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    margin-bottom: 16px;
+}
+
+.app-header .logo {
+    width: 170px;
+}
