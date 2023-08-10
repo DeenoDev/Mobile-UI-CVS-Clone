@@ -39,3 +39,10 @@ body{
 .app-header .logo {
     width: 170px;
 }
+
+.app-header input[type="text"] {
+    padding: 7px;
+    width: 300px;
+    border-radius: 3px;
+    border: 0;
+}
